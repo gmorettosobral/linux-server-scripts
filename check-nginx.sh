@@ -6,6 +6,6 @@ echo "[$data] nginx: OK" >> $LOG
 else
 echo "[$data] nginx: crashed, restarting..." >> $LOG
 sudo systemctl restart nginx
-echo "[$data] nginx restarted > $LOG
+echo "[$data] nginx restarted" >> $LOG
 fi
 
